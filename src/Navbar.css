@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+    width:60px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  .navbar-icon {
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-dropdown {
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .navbar-divider {
+    width: 1px;
+    height: 40px;
+    background-color: #555;
+    margin: 0 15px;
+  }
+  
+  .navbar-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-user-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .navbar-user-name {
+    font-size: 16px;
+  }
+  
